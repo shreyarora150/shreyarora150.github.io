@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduate Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .container img{
+            border-radius: 50%;
+            max-width: 200px; /* Adjust the width as needed */
+            margin-right: 20px; 
+        }
+
+        @media screen and (min-width: 768px) {
+            /* For tablets and desktop */
+            nav {
+                display: flex;
+                justify-content: center;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+            section {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            footer {
+                position: relative;
+            }
+
+            .container {
+            display: flex;
+            align-items: center;
+            }
+
+            .container img{
+            border-radius: 50%;
+            max-width: 200px; 
+            margin-right: 20px; 
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shrey Arora</h1>
+        <h3>Statistics | Machine Learning | Data Engineering </h3>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#work_experience">Work Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class = "container">
+        <img src="/Users/shreyarora/Downloads/unnamed.jpeg" alt="Your Image">
+        <p>Hi, My name is Shrey Arora. I'm pursuing MS in Statistics and Data Science from University of Arizona, Tucson. 
+        I have 3 years of demonstrated work experience in advanced analytics, machine learning and data engineering roles in e-commerce and fin-tech industries.
+        I have a  background in Electrical Engineering with bachelors in engineering from Thapar University, India. 
+        Other interests and hobbies include hiking, playing football, writing poems, playing the keyboard and producing music.</p>
+    </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <h4>Thapar University, Punjab India - B.E Electrical Engineering </h4> 
+        </div>
+        <p>Aug 2015 – May 2019</p>
+        <p>Relevant Courses</p>
+        <ul>
+            <li>Object Oriented Programming</li>
+            <li>Numerical Analysis</li>
+            <li>Data structures and Algorithms</li>
+            <li>Optimization Techniques</li>
+        </ul>
+        <p> GPA : 7.62/10 </p>
+        <br>
+
+        <h4>University of Arizona, Tucson AZ - MS Statistics and Data Science </h4> 
+        <p>Aug 2022 – May 2024</p>
+        <p>Relevant Courses</p>
+        <ul>
+            <li>MATH 574 - Statistical Machine Learning</li>
+            <li>STAT 571A - Advanced Regression Analysis </li>
+            <li>STAT 564 - Theory of Probability </li>
+            <li>STAT 566 - Theory of Statistics</li>
+            <li>STAT 571B - Design and Analysis of Experiment</li>
+            <li>STAT 688 - Statistical Consulting</li>
+            <li>INFO 557 - Neural Networks </li>
+            <li>INFO 550 - Artificial Intelligence </li>
+            <li>STAT 574B - Bayesian Statistics</li>
+            <li>INFO 579 - Sql/No Sql Databases</li>
+            <li>SIE 596 - Optimization for Machine Learning</li> 
+        </ul>
+        <p> GPA : 3.56/4 </p>
+        <h4>Teaching Experience</h4>
+        <p>Graduate Teaching Assistant at department of Physics and Atmospheric Sciences. I taught PHYS 240 Electricity and Magnetism and took lab sessions for two sections</p>
+        <h4>Member of honarary statistics socierty Mu Sigma Rho</h4>
+        <h4>Research Interest</h4>
+        <ul>
+        <li>Recommender Systems</li>
+        <li>Reinforcement Learning</li>
+        <li>Deep Neural Nets</li>
+        </ul>
+
+
+
+    <section id = "work_experience">
+         <h2>Work Experience</h2>
+         <br>
+         <h4> Tesla, Fremont CA </h4>
+         <p> Data Engineering Intern </p> 
+         <p> Aug 2023 – Dec 2023 </p>
+         <ul>
+            <li>Developed Lexicon, an automated data dictionary mapping tool integrated with Code-X CI/CD, utilizing Apache Airflow for deployment. Achieved 85% accuracy in mapping data-mart columns to pipeline sources and displaying results on ZIPLABS dashboard through hierarchical recursive queries.</li>
+            <li>Worked on proof-of-concept to transition ETL data pipelines storing Apache Kafka streaming data from Vertica to Clickhouse database, optimizing resource usage and advancing toward a scalable in-house solution.</li>
+            <li>Developed an ETL pipeline for packaging data mart table, alongside ODS and STAGE layer tables in Vertica database. Deployed the pipeline on Apache Airflow for efficient data processing and management.</li>
+
+         </ul>
+         <br>
+         <h4> American Express, India </h4>
+         <p> Analyst - Risk & Info Management </p> 
+         <p> Aug 2023 – Dec 2023 </p>
+         <ul>
+            <li>Developed forecasting machine learning models using Python(Numpy, Pandas, Sklearn) for predicting transaction volumes and setting quarterly targets for the Sales and Account Management Team.</li>
+            <li>Created new triggers, built data quality checks, analyzed big data using Pyspark and provided actionable insights for lost transaction volume, which led to a 30% reduction in annual lost charge volume.</li>
+            <li>Optimized SQL queries and ETL scripts that reduced data pre-processing time by 2 hours, which earned me a Strategic Mindset Recognition.</li>
+
+         </ul>
+         <br>
+         <h4> Prione (Amazon), India     </h4>
+         <p> Business Intelligence Analyst  </p> 
+         <p> Sep 2020 – Sep 2021 </p>
+         <ul>
+            <li>Conducted root cause analysis on success metrics of onboarded vendors, leveraging exploratory data analysis techniques and A/B Testing to understand the web behaviour of end customers which improved annual Sales and Views by 40%.</li>
+            <li>Created dashboards and visualizations, and maintained data pipelines using Python, SAS, Airflow and Tableau that helped the pricing and performance insights team in data-driven decision-making in tracking churns, sales and transactions.</li>
+            <li>Created data visualizations for weekly business reviews and other ad-hoc projects using matplotlib, seaborn and BI tools like Tableau and QlikView, which enabled real-time visibility of metrics for team leads and external stakeholders.</li>
+
+         </ul>
+         <br>
+
+         <h4> Happay (CRED), India  </h4>
+         <p> Data Scientist  </p> 
+         <p> Jun 2019 – Sep 2020 </p>
+         <ul>
+            <li>Developed a classification machine learning model trained on transactions, subscriptions and user profiling features, performed feature engineering and hypothesis testing, added complexity to model as needed that reduced churn by 28%.</li>
+            <li>Created a K-means clustering unsupervised ML model that helped in prospecting clients for a new fuel card product by establishing priority scores which helped in increasing sales conversion by 35% from the expected number.</li>
+
+         </ul>
+
+
+
+    </section>
+
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h4><a href = "https://github.com/shreyarora150/AI-pac-man"> Artificial Intelligent Pac-man - Search Algorithms | Reinforcement Learning | Optimization | Python </a></h4>
+        <p>Created an AI enabled Pac-Man agent to optimize decision making in live game . Implemented agents using search algorithms like Depth-First Search, Breadth-First Search, A* ,minimax, expectimax and reinforcement learning (Q-Learning) to make pacman learn through trial and error. Designed better evaluation functions to ensure better in-game performance. 
+        </p>
+
+        <br>
+        <h4><a href= "https://github.com/shreyarora150/Text-Multi-labelling">YouTube Comment Multi-Labelling  - NLP | Neural Networks | Text Multi Labelling | Hyperparameter tuning</a></h4>
+        <p>Trained a bidirectional neural network on Youtube comments data that inputs given text and predicts whether any of the given emotions are present: admiration, amusement, gratitude, love, pride, relief and remorse. Used hugging face's Roberta-Base tokeniser and pre-trained model to add embeddings in the model that achieved 84% macro f1 score on test-set.</p>
+
+        <br>
+
+        <h4><a href ="https://github.com/shreyarora150/CTR-Prediction">Huawei Advertisement CTR Prediction - ML Modeling | Resampling |Ensembles |Boosting | Python | VS code | R Studio</a></h4>
+        <p>Modeled the click-through rates for mobile advertising. Large imbalanced dataset was analyzed, and resampling techniques were deployed with different classification methods  to minimize class imbalance. The model was optimized and hypertuned to achieve an 82% f1 score with XGBoost.</p>
+
+
+
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: shreyarora@arizona.edu</p>
+    </section>
+</body>
+</html>
